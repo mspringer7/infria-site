@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.infria.example/</loc></url>
-  <url><loc>https://www.infria.example/services/</loc></url>
-  <url><loc>https://www.infria.example/case-studies/</loc></url>
-  <url><loc>https://www.infria.example/pricing/</loc></url>
-  <url><loc>https://www.infria.example/contact/</loc></url>
-  <url><loc>https://www.infria.example/blog/</loc></url>
+  <url><loc>https://infria.com/</loc></url>
+  <url><loc>https://infria.com/services/</loc></url>
+  <url><loc>https://infria.com/case-studies/</loc></url>
+  <url><loc>https://infria.com/pricing/</loc></url>
+  <url><loc>https://infria.com/contact/</loc></url>
+  <url><loc>https://infria.com/blog/</loc></url>
 </urlset>
