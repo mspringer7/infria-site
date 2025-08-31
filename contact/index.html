@@ -1,0 +1,80 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Contact • Infria</title>
+<meta name="description" content="Enterprise Kubernetes, Terraform, and SRE services."/>
+<link rel="icon" href="../assets/img/favicon-48.png"/>
+<link rel="stylesheet" href="../assets/css/styles.css"/>
+<script defer src="../assets/js/main.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Infria",
+  "url": "https://www.infria.example",
+  "logo": "https://www.infria.example/assets/img/emblem.png",
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "sales",
+      "email": "hello@infria.example"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container row">
+    <a class="brand" href="../index.html" aria-label="Infria home">
+      <img src="../assets/img/emblem.png" alt="Infria emblem" />
+      <span class="wordmark">Infria</span>
+    </a>
+    <nav><ul>
+      <li><a href="../services/index.html">Services</a></li>
+      <li><a href="../case-studies/index.html">Case Studies</a></li>
+      <li><a href="../pricing/index.html">Pricing</a></li>
+      <li><a href="../contact/index.html" class="btn btn-primary">Book a Call</a></li>
+      <li><button id="theme-toggle" class="btn" aria-label="Toggle theme">🌙</button></li>
+    </ul></nav>
+  </div>
+</header>
+<main>
+<div class="container">
+  <div class="breadcrumb"><a href="../index.html">Home</a> › Contact</div>
+  <h1 class="h1">Book a Call</h1>
+  <p class="lede">Tell us about your goals. We’ll respond within 1 business day.</p>
+  <div class="grid cols-3">
+    <div class="card" style="grid-column:span 2">
+      <form action="mailto:hello@infria.example" method="post" enctype="text/plain">
+        <label>Name<br/><input name="name" required placeholder="Jane Doe"/></label><br/>
+        <label>Email<br/><input name="email" type="email" required placeholder="jane@example.com"/></label><br/>
+        <label>Company<br/><input name="company" placeholder="Acme Inc."/></label><br/>
+        <label>What do you want to achieve?<br/><textarea name="message" rows="6" required placeholder="EKS migration, SOC2 readiness, cut AWS spend…"></textarea></label><br/>
+        <button class="btn btn-primary" type="submit">Send</button>
+        <a class="btn" href="https://calendly.com/your-calendly/30min" target="_blank" rel="noopener">Schedule via Calendly</a>
+        <p class="tiny">Swap the form action for Formspree/Netlify when ready.</p>
+      </form>
+    </div>
+    <div class="card"><h3>Why teams choose Infria</h3><ul>
+      <li>Senior engineers only</li><li>Clear SLOs & fixed scopes</li><li>Reusable IP and documentation</li></ul></div>
+  </div>
+</div>
+</main>
+<footer class="footer">
+  <div class="container grid cols-3">
+    <div><strong>Infria</strong><p class="tiny">Enterprise-grade DevOps & Platform Engineering.</p></div>
+    <div><strong>Company</strong><ul>
+      <li><a href="../services/index.html">Services</a></li>
+      <li><a href="../case-studies/index.html">Case Studies</a></li>
+      <li><a href="../pricing/index.html">Pricing</a></li>
+      <li><a href="../legal/privacy.html">Privacy</a></li>
+      <li><a href="../legal/terms.html">Terms</a></li>
+    </ul></div>
+    <div><strong>Contact</strong><ul>
+      <li>Email: <a href="mailto:hello@infria.example">hello@infria.example</a></li>
+      <li>Calendly: <a href="https://calendly.com/your-calendly/30min" target="_blank" rel="noopener">Book</a></li>
+    </ul></div>
+  </div>
+  <div class="container tiny" style="text-align:center;margin-top:10px;">© 2025 Infria. All rights reserved.</div>
+</footer>
+</body></html>

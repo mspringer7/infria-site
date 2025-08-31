@@ -1,0 +1,14 @@
+{
+  "name": "Infria",
+  "short_name": "Infria",
+  "theme_color": "#0ea5e9",
+  "background_color": "#0b0d10",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "assets/img/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

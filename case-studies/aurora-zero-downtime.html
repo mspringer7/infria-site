@@ -1,0 +1,76 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Case Study: Zero‑Downtime Migration to AWS Aurora MySQL • Infria</title>
+<meta name="description" content="Enterprise Kubernetes, Terraform, and SRE services."/>
+<link rel="icon" href="../assets/img/favicon-48.png"/>
+<link rel="stylesheet" href="../assets/css/styles.css"/>
+<script defer src="../assets/js/main.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Infria",
+  "url": "https://www.infria.example",
+  "logo": "https://www.infria.example/assets/img/emblem.png",
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "sales",
+      "email": "hello@infria.example"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container row">
+    <a class="brand" href="../index.html" aria-label="Infria home">
+      <img src="../assets/img/emblem.png" alt="Infria emblem" />
+      <span class="wordmark">Infria</span>
+    </a>
+    <nav><ul>
+      <li><a href="../services/index.html">Services</a></li>
+      <li><a href="../case-studies/index.html">Case Studies</a></li>
+      <li><a href="../pricing/index.html">Pricing</a></li>
+      <li><a href="../contact/index.html" class="btn btn-primary">Book a Call</a></li>
+      <li><button id="theme-toggle" class="btn" aria-label="Toggle theme">🌙</button></li>
+    </ul></nav>
+  </div>
+</header>
+<main>
+    <div class="container">
+      <div class="breadcrumb"><a href="../index.html">Home</a> › <a href="index.html">Case Studies</a> › Zero‑Downtime Migration to AWS Aurora MySQL</div>
+      <h1 class="h1">Zero‑Downtime Migration to AWS Aurora MySQL</h1>
+      <p class="lede">Phased migration from self‑managed MySQL to Aurora with automated provisioning and idempotent imports.</p>
+      <div class="grid cols-3">
+        <div class="card" style="grid-column:span 2">
+          <h3>Challenge</h3><p>A healthcare platform needed Aurora scalability and resilience but feared downtime during migration.</p>
+          <h3>Solution</h3><ul><li>Designed phased migration with read replicas and validation</li><li>Automated schemas/users via Terraform + Parameter Store</li><li>Built reusable IaC modules for network and DB resources</li><li>Parallelized dumps/imports with rollback strategies</li></ul>
+          <h3>Impact</h3><ul><li>Near‑zero downtime during cutover</li><li>Simplified environment management across DEV→PROD</li><li>Reduced DB operational overhead by ~40%</li></ul>
+        </div>
+        <aside class="card">
+          <h3>Stack</h3><ul><li>AWS Aurora MySQL/RDS</li><li>Terraform/Terragrunt</li><li>GitHub Actions</li></ul>
+          <a href="../contact/index.html" class="btn btn-primary" style="margin-top:.6rem">Discuss a similar project</a>
+        </aside>
+      </div>
+    </div>
+    </main>
+<footer class="footer">
+  <div class="container grid cols-3">
+    <div><strong>Infria</strong><p class="tiny">Enterprise-grade DevOps & Platform Engineering.</p></div>
+    <div><strong>Company</strong><ul>
+      <li><a href="../services/index.html">Services</a></li>
+      <li><a href="../case-studies/index.html">Case Studies</a></li>
+      <li><a href="../pricing/index.html">Pricing</a></li>
+      <li><a href="../legal/privacy.html">Privacy</a></li>
+      <li><a href="../legal/terms.html">Terms</a></li>
+    </ul></div>
+    <div><strong>Contact</strong><ul>
+      <li>Email: <a href="mailto:hello@infria.example">hello@infria.example</a></li>
+      <li>Calendly: <a href="https://calendly.com/your-calendly/30min" target="_blank" rel="noopener">Book</a></li>
+    </ul></div>
+  </div>
+  <div class="container tiny" style="text-align:center;margin-top:10px;">© 2025 Infria. All rights reserved.</div>
+</footer>
+</body></html>
